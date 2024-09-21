@@ -1,0 +1,207 @@
+.header{
+    background-color:#0171f9; 
+    display: flex; /* important*/
+    justify-content: space-between ; /* important*/
+    align-items: center ; /* important*/
+    padding: 10px 50px;
+}
+
+body{
+    margin:0;
+    font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+    
+}
+.logo{
+    width: 100px;
+}
+.header-links a{
+  color: white;
+  padding: 0 15px;
+  text-decoration: none;
+}
+.header-links a:hover{
+   background-color: #2386fe;
+   border-radius: 15px;
+   padding: 5px 15px;
+}
+.btn{
+    background-color: #EE626B;
+    color: white;
+    border: none;
+    padding:5px 15px;
+    border-radius: 30px; 
+    width: 100px;
+    text-transform: uppercase;
+    text-align: center;
+   
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+.btn:hover {
+background-color: #f2858c;
+}
+.Landing-page{
+    background-color:#0171f9; 
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+    align-items: center;
+    color:white;
+    border-radius: 0 0 50px 50px;
+}
+.landing-page-search input{
+    border-radius: 50px;
+    border:none;
+    outline: none;
+    height: 30px;
+    padding: 0 10px;
+}
+.landing-page-search button{
+    position:absolute;
+    left: 200px;
+    height: 30px;
+   
+}
+.landing-page-image-container img{
+    border-radius: 20px;
+    width: 200px;
+}
+.Landing-page-left-section{
+    width: 500px;
+}
+.trending-container{
+    padding: 25px 50px;
+    margin-left: 25px;
+}
+.trending-container span{
+
+   color: #EE626B;
+   text-transform: uppercase;
+   font-size: 14px;
+}
+.trending-Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.trending-Header h1{
+    margin-top: 0;
+}
+.card-info{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    background-color: #EEEEEE;
+    padding: 5px 25px;
+    align-items: center;
+}
+.card-info img{
+    width: 50px;
+}
+.card {
+    width: 300px;
+    margin-left: 15px;
+   
+    
+}
+.card .thumb{
+    border-radius: 20px 20px 0 0;
+    background-color: #EEEEEE;
+}
+.card .card-info{
+    border-radius:0 0 20px 20px;
+  
+}
+.trending-cards{
+    display: flex;
+   gap:25px;
+   width: 100px;
+   margin-right: 25px;
+}
+.btn1{
+    position: absolute;
+     right: 100px;
+     
+}
+.Most-played{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.par-Most-played p{
+    color: #EE626B;
+    font-size: 20px;
+}
+.Most-played-image p{
+    color:#b8b8b8;
+}
+.Top-Games{
+   
+   font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  background-color: #EEEEEE;
+  border-radius: 50px;
+  padding: 25px 50px;
+
+}
+.Most-played-image img{
+    border-radius: 20px ;
+    align-items: center;
+}
+.Most-played-container{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.top-game {
+    text-align: center;
+   padding: 0 0;
+}
+.top-game p{
+    color: #EE626B;
+}
+.categories-par1 p{
+   width:235px;
+    color:white;
+    background-color: #2386fe;
+    text-align: center;
+    border-radius: 30px 30px 0 0;
+    padding: 15px 0;
+    margin:0;
+
+ 
+}
+.categories-par1 img{
+    border-radius: 0 0 30px 30px ;
+    margin: 0;
+  
+    
+}
+.category-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+  
+}
+.footer{
+    background-color: #2386fe;
+    margin-bottom: 0;
+    padding: 20px;
+    border-radius: 30px 30px 0 0;
+    margin-top: 50px;
+    
+}
+.coopyright{
+    color: #EEEEEE;
+    text-align: center;
+}
+
+
